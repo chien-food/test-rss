@@ -1,0 +1,336 @@
+@font-face {
+  font-family: HannariMincho;
+  src: url(../font/HannariMincho-Regular.otf);
+  font-style: normal;
+}
+.fnt-hannari {
+  font-family: HannariMincho !important;
+}
+
+.txt-f4 {
+  letter-spacing: 9px;
+  font-size: 5.5vw;
+  font-family: HannariMincho !important;
+}
+
+.txt-f3 {
+  font-size: 7vw;
+  letter-spacing: 9px;
+  font-family: HannariMincho !important;
+}
+
+.color-main {
+  color: #b5003c;
+}
+
+#sec1 {
+  margin: 15vw 0 0;
+  height: 100%;
+}
+#sec1 .wrap {
+  position: relative;
+}
+#sec1 .wrap:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: -49px;
+  height: 116px;
+  width: 60%;
+  background: url(../img/access/sec1_bg_top.jpg);
+  z-index: -1;
+}
+#sec1 .wrap .deco {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 0;
+}
+#sec1 strong {
+  font-weight: 700;
+  font-size: 4.3vw;
+}
+#sec1 h2 {
+  margin-bottom: 6vw;
+  position: relative;
+}
+#sec1 h2:after {
+  position: absolute;
+  content: "";
+  top: -2vw;
+  left: 0;
+  width: 20%;
+  height: 2px;
+  background: #b5003c;
+}
+#sec1 dl {
+  margin-bottom: 6vw;
+}
+
+#gmap {
+  margin: 12vw 0 0;
+}
+#gmap .ifram {
+  width: 100%;
+  height: 110vw;
+  border: 0;
+}
+#gmap .btn-gmap {
+  padding: 6vw 8% 13vw;
+  margin: 0 -5% 0vw;
+  background: url(../img/access/sec1_deco_bottom.jpg) repeat-x bottom left/20% 26vw;
+}
+#gmap .btn-gmap li {
+  width: 98%;
+}
+#gmap .btn-gmap li .button {
+  display: flex;
+  font-weight: 500;
+  font-size: 6vw;
+  letter-spacing: 4px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+#gmap .btn-gmap li .button:hover {
+  opacity: 0.7;
+}
+#gmap .btn-gmap li .print {
+  color: #000000;
+  text-align: left;
+  display: block;
+  font-size: 4vw;
+  padding-left: 4%;
+  margin-top: -2vw;
+}
+#gmap .btn-gmap li .copy {
+  letter-spacing: 0;
+}
+
+#sec2 {
+  margin: 76vw 0 0;
+}
+#sec2 .bg-parallax {
+  display: none !important;
+}
+#sec2 .parallax1 img {
+  height: 60vw;
+}
+#sec2 .group1 {
+  margin: 8vw 0 0;
+}
+#sec2 .group1 p {
+  width: 80%;
+  margin-right: 6%;
+}
+#sec2 .group1 h2 {
+  width: 15%;
+  margin-top: -20vw;
+  position: relative;
+  z-index: -1;
+}
+#sec2 .wrap .group2 {
+  margin-top: 6vw;
+}
+@media only screen and (min-width: 768px) {
+  #sec2 .wrap .group2 {
+    margin: 97px 0px 0px 0px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  #sec2 .wrap .group2 .col-right {
+    width: 624px;
+    margin-right: -121px;
+  }
+}
+#sec2 .wrap .group2 .col-left {
+  margin-top: 10vw;
+}
+
+
+@media only screen and (min-width: 768px) {
+  #sec2 .wrap .group2 .col-left {
+    margin: 0px 0px 0px 0px;
+  }
+  #sec2 .col-left .sec2-content dl dd {
+    letter-spacing: 0.25em;
+  }
+}
+#sec2 .wrap .group2 .col-left .sec2-content dl {
+  font-size: 5vw;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+@media only screen and (min-width: 768px) {
+  #sec2 .wrap .group2 .col-left .sec2-content dl {
+    font-size: 30px;
+    line-height: 50px;
+    padding: 44px 5px 23px 0px;
+  }
+}
+#sec2 .wrap .group2 .col-left .sec2-content .sec2-txt {
+  margin-top: 5vw;
+}
+@media only screen and (min-width: 768px) {
+  #sec2 .wrap .group2 .col-left .sec2-content .sec2-txt {
+    margin: 0px 0px 0px 0px;
+    width: 376px;
+  }
+  
+}
+#sec2 .wrap .group2 .col-right .sec2-slide {
+  position: relative;
+}
+#sec2 .wrap .group2 .col-right .sec2-slide::after {
+  position: absolute;
+  content: "";
+  left: -2%;
+  top: -2vw;
+  width: 18%;
+  height: 17vw;
+  border-top: 1px solid #b5003c;
+  border-left: 1px solid #b5003c;
+}
+
+#sec2 .wrap .group2 .col-right .slick-dots {
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  right: 35%;
+  left: auto;
+  bottom: -5vw;
+  transform: unset;
+}
+@media only screen and (min-width: 768px) {
+  #sec2 .wrap .group2 .col-right .sec2-slide::after {
+    width: 125px;
+    height: 121px;
+    top: -12px;
+  }
+  #sec2 .wrap .group2 .col-right .slick-dots {
+    right: auto;
+    left: -6px;
+    bottom: -26px;
+  }
+}
+
+footer {
+  margin-top: 500px;
+}
+
+@media only screen and (min-width: 768px) {
+  .txt-f4 {
+    font-size: 40px;
+  }
+  .txt-f3 {
+    font-size: 30px !important;
+  }
+  .wrap {
+    border-left: 1px solid #0c7ff2;
+    border-right: 1px solid red;
+  }
+  #sec1 {
+    margin: 0px 0px 0px 0px;
+    background: url(../img/access/sec1_deco_bottom.jpg) repeat-x bottom left/8% 209px;
+  }
+  #sec1 .wrap:after {
+    right: 419px;
+    left: auto;
+    top: -2px;
+    height: 236px;
+    width: 100%;
+  }
+  #sec1 .wrap .deco {
+    width: 100%;
+    left: 569px;
+    top: 156px;
+    right: auto;
+  }
+  #sec1 strong {
+    font-size: 20px;
+  }
+  #sec1 h2 {
+    margin: 0px 0px 33px 0px;
+  }
+  #sec1 h2:after {
+    top: -37px;
+    left: 0;
+    width: 69px;
+    height: 3px;
+  }
+  #sec1 dl {
+    margin: 0px 0px 31px 0px;
+  }
+  #sec1 .group1 {
+    padding-top: 131px;
+  }
+  #sec1 .group2 {
+    position: absolute;
+    right: 0;
+    top: 446px;
+    width: 500px;
+    padding-left: 54px;
+  }
+  #sec1 .sec1-img {
+    padding-top: 31px;
+  }
+  #gmap {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+  }
+  #gmap .ifram {
+    width: 706px;
+    height: 475px;
+    margin-right: -136px;
+  }
+  #gmap .btn-gmap {
+    padding: 0px 58px 83px 0px;
+    flex-wrap: wrap;
+    background: unset;
+    margin-right: 0px;
+  }
+  #gmap .btn-gmap li {
+    width: 100%;
+    font-size: 30px;
+  }
+  #gmap .btn-gmap li .button {
+    padding: 0;
+    justify-content: flex-start;
+    font-size: 25px;
+    justify-content: space-between;
+  }
+  #gmap .btn-gmap li .print {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 0;
+    margin-top: 0;
+  }
+  #gmap .btn-gmap .first {
+    margin-bottom: 69px;
+  }
+  #sec2 {
+    margin: 0px 0px 0px 0px;
+  }
+  #sec2 .bg-parallax {
+    background-image: url(../img/access/parallax1.jpg);
+    display: block !important;
+    height: 620px;
+  }
+  #sec2 .group1 {
+    margin: 0px 0px 0px 0px;
+  }
+  #sec2 .group1 p {
+    width: auto;
+    margin: 97px 0px 0px 9px;
+  }
+  #sec2 .group1 h2 {
+    width: auto;
+    margin: 7px 0px 0px 78px;
+  }
+}
